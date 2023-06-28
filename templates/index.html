@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Portfolio</title>
+    <title>Igor Gawłowicz</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
     <style>
-      body {
-        background-color: #343a40;
-        color: #fff;
-      }
-
       .navbar {
-        background-color: #212529;
+        background-color: #1e2125;
       }
 
       .navbar-nav {
@@ -52,11 +47,30 @@
 
         .container {
           margin-top: 40px;
+          border-radius: 15px;
         }
+      }
+
+      /* Night theme */
+      .night-theme {
+        background-color: #2d3136;
+        color: #fff;
+      }
+
+      .night-theme .card {
+        background-color: #383c42;
+        border-color: #34373c;
+        border-radius: 15px;
+      }
+
+      .night-theme .btn {
+        background-color: #44484e;
+        border-color: #44484e;
+        color: #fff;
       }
     </style>
   </head>
-  <body>
+  <body style="background-color: #272b30">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/">Igor Gawłowicz</a>
       <button
@@ -88,31 +102,31 @@
       </div>
     </nav>
 
-    <div class="container mt-4">
+    <div class="container mt-4 night-theme">
       <div id="about" class="row">
         <div class="col-lg-12">{% include 'about.html' %}</div>
       </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4 night-theme">
       <div id="technologies" class="row">
         <div class="col-lg-12">{% include 'technologies.html' %}</div>
       </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4 night-theme">
       <div id="experience" class="row">
         <div class="col-lg-12">{% include 'experience.html' %}</div>
       </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4 night-theme">
       <div id="portfolio" class="row">
         <div class="col-lg-12">{% include 'portfolio.html' %}</div>
       </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4 night-theme">
       <div id="contact" class="row">
         <div class="col-lg-12">{% include 'contact.html' %}</div>
       </div>
@@ -120,10 +134,9 @@
 
     <footer>
       <div class="container text-center">
-        <ul class="list-unstyled">
-          <li>Email: igor.gawlowicz@gmail.com</li>
+        <ul class="list-unstyled" style="color: white">
+          <li>igor.gawlowicz@gmail.com</li>
           <li>
-            Github:
             <a href="https://github.com/Zciwolvo"
               >https://github.com/Zciwolvo</a
             >

@@ -8,16 +8,17 @@
     />
   </head>
   <body>
-    <div class="container mt-4">
+    <div class="container mt-4" style="padding-bottom: 2em">
       <h1>Contact Me</h1>
       <p>Feel free to reach out to me for any inquiries or opportunities.</p>
-      <form>
+      <form action="/send-email" method="POST">
         <div class="form-group">
           <label for="name">Name</label>
           <input
             type="text"
             class="form-control"
             id="name"
+            name="name"
             placeholder="Enter your name"
             required
           />
@@ -28,6 +29,7 @@
             type="email"
             class="form-control"
             id="email"
+            name="email"
             placeholder="Enter your email"
             required
           />
@@ -37,6 +39,7 @@
           <textarea
             class="form-control"
             id="message"
+            name="message"
             rows="5"
             placeholder="Enter your message"
             required
