@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 from flask_mail import Mail, Message
 from dotenv import load_dotenv
 import os
@@ -19,9 +19,6 @@ def home():
     return render_template("index.html")
 
 
-from flask import Flask, request, render_template, redirect
-
-
 @app.route("/send-email", methods=["POST"])
 def send_email():
     name = request.form["name"]
@@ -35,11 +32,7 @@ def send_email():
     mail.send(msg)
 
     print("Email sent!")
-    return redirect("/")
-
-
-if __name__ == "__main__":
-    app.run()
+    return redirect("/#contact")
 
 
 if __name__ == "__main__":
