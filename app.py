@@ -19,6 +19,9 @@ def home():
     return render_template("index.html")
 
 
+from flask import Flask, request, render_template, redirect
+
+
 @app.route("/send-email", methods=["POST"])
 def send_email():
     name = request.form["name"]
@@ -32,7 +35,11 @@ def send_email():
     mail.send(msg)
 
     print("Email sent!")
-    return render_template("index.html")
+    return redirect("/")
+
+
+if __name__ == "__main__":
+    app.run()
 
 
 if __name__ == "__main__":

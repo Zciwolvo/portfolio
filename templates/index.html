@@ -32,45 +32,56 @@
         margin-top: 20px;
       }
 
-      @media (min-width: 992px) {
-        .navbar-nav {
-          flex-direction: row;
-        }
-
-        .navbar-toggler {
-          display: none;
-        }
-
-        .navbar-collapse {
-          margin-top: 0;
-        }
-
-        .container {
-          margin-top: 40px;
-          border-radius: 15px;
-        }
-      }
-
       /* Night theme */
-      .night-theme {
-        background-color: #2d3136;
+      body.dark-mode {
+        background-color: #272b30;
         color: #fff;
       }
 
-      .night-theme .card {
+      body.light-mode li {
+        color: #fff;
+      }
+
+      body.dark-mode .card {
         background-color: #383c42;
         border-color: #34373c;
         border-radius: 15px;
       }
 
-      .night-theme .btn {
-        background-color: #44484e;
-        border-color: #44484e;
+      body.dark-mode .container {
+        background-color: #2d3136;
+        border-radius: 15px;
+      }
+
+      /* Light theme */
+      body.light-mode {
+        background-color: #fff;
+        color: #272b30;
+      }
+
+      body.light-mode li {
+        color: #272b30;
+      }
+
+      body.light-mode .card {
+        background-color: #f8f9fa;
+        border-color: #e9ecef;
+        border-radius: 15px;
+      }
+
+      body.light-mode .btn {
+        background-color: #007bff;
+        border-color: #007bff;
         color: #fff;
+      }
+
+      /* Hide the checkbox */
+      .toggle-checkbox {
+        display: none;
       }
     </style>
   </head>
-  <body style="background-color: #272b30">
+  <body class="dark-mode">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/">Igor Gawłowicz</a>
       <button
@@ -86,6 +97,24 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <div class="custom-control custom-switch">
+              <input
+                type="checkbox"
+                class="custom-control-input toggle-checkbox"
+                id="themeSwitch"
+                onchange="toggleTheme()"
+              />
+              <label class="custom-control-label" for="themeSwitch">
+                <img
+                  style="max-width: 30px"
+                  id="toggleIcon"
+                  class="toggle-button"
+                  src="/static/src/moonwhite.svg"
+                />
+              </label>
+            </div>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
@@ -134,11 +163,14 @@
 
     <footer>
       <div class="container text-center">
-        <ul class="list-unstyled" style="color: white">
+        <ul class="list-unstyled" style="padding-bottom: 1em; padding-top: 1em">
           <li>igor.gawlowicz@gmail.com</li>
           <li>
-            <a href="https://github.com/Zciwolvo"
-              >https://github.com/Zciwolvo</a
+            <a href="https://github.com/Zciwolvo">github.com/Zciwolvo</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/igor-gawłowicz-55aa47218/"
+              >linkedin.com/in/igor-gawłowicz/</a
             >
           </li>
         </ul>
@@ -146,5 +178,19 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+      function toggleTheme() {
+        const body = document.body;
+        body.classList.toggle("light-mode");
+        body.classList.toggle("dark-mode");
+
+        const toggleIcon = document.getElementById("toggleIcon");
+        if (toggleIcon.src.endsWith("sunwhite.svg")) {
+          toggleIcon.src = "/static/src/sunwhite.svg";
+        } else {
+          toggleIcon.src = "/static/src/moonwhite.svg";
+        }
+      }
+    </script>
   </body>
 </html>
