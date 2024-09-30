@@ -1,0 +1,830 @@
+[
+    {
+        "category": "Broń Biała",
+        "subcategory": "PROSTA",
+        "weapon_name": "Broń Ręczna",
+        "price": "1 ZK",
+        "weight": "1",
+        "accessibility": "Powszechna",
+        "weapon_range": "Średni",
+        "damage": "+BS+4",
+        "pros_and_cons": [
+            "–"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "PROSTA",
+        "weapon_name": "Broń Improwizowana",
+        "price": "darmo",
+        "weight": "Różne",
+        "accessibility": "inwencja",
+        "weapon_range": "Różny",
+        "damage": "+BS+1",
+        "pros_and_cons": [
+            "Tępa"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "PROSTA",
+        "weapon_name": "Sztylet",
+        "price": "16 s",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "Bardzo krótki",
+        "damage": "+BS+2",
+        "pros_and_cons": [
+            "–"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "PROSTA",
+        "weapon_name": "Nóż",
+        "price": "8 s",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "Bardzo krótki",
+        "damage": "+BS+1",
+        "pros_and_cons": [
+            "Tępy"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "PROSTA",
+        "weapon_name": "Tarcza (puklerz)",
+        "price": "18s 2p",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "Kontaktowy",
+        "damage": "+B+1",
+        "pros_and_cons": [
+            "Tarcza 1",
+            "Tępa",
+            "Parująca"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "PROSTA",
+        "weapon_name": "Tarcza",
+        "price": "2 ZK",
+        "weight": "1",
+        "accessibility": "Powszechna",
+        "weapon_range": "Bardzo krótki",
+        "damage": "+BS+2",
+        "pros_and_cons": [
+            "Tarcza 2",
+            "Tępa",
+            "Parująca"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "PROSTA",
+        "weapon_name": "Tarcza (duża)",
+        "price": "3 ZK",
+        "weight": "3",
+        "accessibility": "Powszechna",
+        "weapon_range": "Bardzo krótki",
+        "damage": "+B+3",
+        "pros_and_cons": [
+            "Tępa",
+            "Parująca",
+            "Tarcza 3"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "KAWALERYJSKA",
+        "weapon_name": "(2R)Młot kawaleryjski",
+        "price": "3 ZK",
+        "weight": "3",
+        "accessibility": "Ograniczona",
+        "weapon_range": "Daleki",
+        "damage": "+BS+5",
+        "pros_and_cons": [
+            "Ogłuszający"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "KAWALERYJSKA",
+        "weapon_name": "Kopia",
+        "price": "1 ZK",
+        "weight": "3",
+        "accessibility": "Rzadka",
+        "weapon_range": "Bardzo daleki",
+        "damage": "+BS+6",
+        "pros_and_cons": [
+            "Druzgocząca",
+            "Nadziewająca"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "SZERMIERCZA",
+        "weapon_name": "Floret",
+        "price": "5 ZK",
+        "weight": "1",
+        "accessibility": "Ograniczona",
+        "weapon_range": "Średni",
+        "damage": "+BS+3",
+        "pros_and_cons": [
+            "Nadziewający",
+            "Szybki",
+            "Precyzyjny",
+            "Tępy"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "SZERMIERCZA",
+        "weapon_name": "Rapier",
+        "price": "5 ZK",
+        "weight": "1",
+        "accessibility": "Ograniczona",
+        "weapon_range": "Daleki",
+        "damage": "+BS+4",
+        "pros_and_cons": [
+            "Szybki",
+            "Nadziewający"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "BIJATYKA",
+        "weapon_name": "Pięści i kopniaki",
+        "price": "darmo",
+        "weight": "0",
+        "accessibility": "zawsze przy sobie ",
+        "weapon_range": "Kontaktowy",
+        "damage": "+BS+0",
+        "pros_and_cons": [
+            "Tępe"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "BIJATYKA",
+        "weapon_name": "Kastet",
+        "price": "2s 6p",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "Kontaktowy",
+        "damage": "+BS+2",
+        "pros_and_cons": [
+            "–"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "KORBACZE",
+        "weapon_name": "Cep bojowy",
+        "price": "10 s",
+        "weight": "1",
+        "accessibility": "Powszechna",
+        "weapon_range": "Średni",
+        "damage": "+BS+3",
+        "pros_and_cons": [
+            "Dekoncentrujący",
+            "Nieprecyzyjny",
+            "Plączący"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "KORBACZE",
+        "weapon_name": "Korbacz",
+        "price": "2 ZK",
+        "weight": "1",
+        "accessibility": "Ograniczona",
+        "weapon_range": "Średni",
+        "damage": "+BS+5",
+        "pros_and_cons": [
+            "Dekoncentrujący",
+            "Plączący"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "Plączący",
+        "weapon_name": "(2R)Kiścień",
+        "price": "3 ZK",
+        "weight": "2",
+        "accessibility": "Rzadka",
+        "weapon_range": "Daleki",
+        "damage": "+BS+6",
+        "pros_and_cons": [
+            "Ciężki",
+            "Dekoncentrujący",
+            "Plączący",
+            "Druzgoczący"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "PARUJĄCA",
+        "weapon_name": "Lewak",
+        "price": "1 ZK",
+        "weight": "0",
+        "accessibility": "Rzadka",
+        "weapon_range": "Bardzo krótki",
+        "damage": "+BS+2",
+        "pros_and_cons": [
+            "Parujący"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "PARUJĄCA",
+        "weapon_name": "Łamacz mieczy",
+        "price": "1 ZK 2s 6p",
+        "weight": "1",
+        "accessibility": "Ograniczona",
+        "weapon_range": "Krótki",
+        "damage": "+BS+3",
+        "pros_and_cons": [
+            "mieczy Łamacz",
+            "Parujący"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "DRZEWCOWA",
+        "weapon_name": "(2R)Halabarda",
+        "price": "2 ZK",
+        "weight": "3",
+        "accessibility": "Powszechna",
+        "weapon_range": "Daleki",
+        "damage": "+BS+4",
+        "pros_and_cons": [
+            "Rąbiąca",
+            "Parująca",
+            "Nadziewająca"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "DRZEWCOWA",
+        "weapon_name": "(2R)Włócznia",
+        "price": "15 s",
+        "weight": "2",
+        "accessibility": "Powszechna",
+        "weapon_range": "Bardzo daleki",
+        "damage": "+BS+4",
+        "pros_and_cons": [
+            "Nadziewająca"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "DRZEWCOWA",
+        "weapon_name": "(2R)Pika",
+        "price": "18 s",
+        "weight": "4",
+        "accessibility": "Rzadka",
+        "weapon_range": "Ogromny",
+        "damage": "+BS+4",
+        "pros_and_cons": [
+            "Nadziewająca"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "DRZEWCOWA",
+        "weapon_name": "(2R)Kostur",
+        "price": "",
+        "weight": "3",
+        "accessibility": "s",
+        "weapon_range": "2 Powszechna Daleki",
+        "damage": "+BS+4",
+        "pros_and_cons": [
+            "Ogłuszający",
+            "Parujący"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "DWURĘCZNA",
+        "weapon_name": "(2R)Półtorak",
+        "price": "8 ZK",
+        "weight": "3",
+        "accessibility": "Ograniczona",
+        "weapon_range": "Daleki",
+        "damage": "+BS+5",
+        "pros_and_cons": [
+            "Przebijający",
+            "Parujący"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "DWURĘCZNA",
+        "weapon_name": "(2R)Wielki topór",
+        "price": "4 ZK",
+        "weight": "3",
+        "accessibility": "Ograniczona",
+        "weapon_range": "Daleki",
+        "damage": "+BS+6",
+        "pros_and_cons": [
+            "Ciężki",
+            "Druzgoczący",
+            "Rąbiący"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "DWURĘCZNA",
+        "weapon_name": "(2R)Nadziak",
+        "price": "9 s",
+        "weight": "3",
+        "accessibility": "Powszechna",
+        "weapon_range": "Średni",
+        "damage": "+BS+5",
+        "pros_and_cons": [
+            "Nadziewający",
+            "Powolny",
+            "Przebijający"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "Przebijający",
+        "weapon_name": "(2R)Młot bojowy",
+        "price": "3 ZK",
+        "weight": "3",
+        "accessibility": "Powszechna",
+        "weapon_range": "Średni",
+        "damage": "+BS+6",
+        "pros_and_cons": [
+            "Przebijający",
+            "Ogłuszający",
+            "Powolny"
+        ]
+    },
+    {
+        "category": "Broń Biała",
+        "subcategory": "Przebijający",
+        "weapon_name": "(2R)Miecz dwuręczny",
+        "price": "10 ZK",
+        "weight": "3",
+        "accessibility": "Ograniczona",
+        "weapon_range": "Daleki",
+        "damage": "+BS+5",
+        "pros_and_cons": [
+            "Rąbiący",
+            "Przebijający"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "Prochowa",
+        "weapon_name": "(2R)Garłacz",
+        "price": "2 ZK",
+        "weight": "1",
+        "accessibility": "Ograniczona",
+        "weapon_range": "20",
+        "damage": "+8",
+        "pros_and_cons": [
+            "Niebezpieczny",
+            "Wybuchowy 3",
+            "Przeładowanie 2"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "Prochowa",
+        "weapon_name": "(2R)Muszkiet hochlandzki",
+        "price": "100 ZK",
+        "weight": "3",
+        "accessibility": "Egzotyczna",
+        "weapon_range": "100",
+        "damage": "+9",
+        "pros_and_cons": [
+            "Celny",
+            "Precyzyjny",
+            "Przeładowanie 4"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "Prochowa",
+        "weapon_name": "(2R)Krótki pistolet",
+        "price": "4 ZK",
+        "weight": "2",
+        "accessibility": "Ograniczona",
+        "weapon_range": "50",
+        "damage": "+9",
+        "pros_and_cons": [
+            "Niebezpieczny",
+            "Przeładowanie 3"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "Prochowa",
+        "weapon_name": "Pistolet*",
+        "price": "8 ZK",
+        "weight": "0",
+        "accessibility": "Rzadka",
+        "weapon_range": "20",
+        "damage": "+8",
+        "pros_and_cons": [
+            "Pistolet",
+            "Przeładowanie 1"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "ŁUKI",
+        "weapon_name": "(2R)Łuk elfi",
+        "price": "10 ZK",
+        "weight": "2",
+        "accessibility": "Egzotyczna",
+        "weapon_range": "150",
+        "damage": "+BS+4",
+        "pros_and_cons": [
+            "Precyzyjny",
+            "Przebijający"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "ŁUKI",
+        "weapon_name": "(2R)Łuk długi",
+        "price": "5 ZK",
+        "weight": "3",
+        "accessibility": "Ograniczona",
+        "weapon_range": "100",
+        "damage": "+BS+4",
+        "pros_and_cons": [
+            "Przebijający"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "ŁUKI",
+        "weapon_name": "(2R)Łuk",
+        "price": "4 ZK",
+        "weight": "2",
+        "accessibility": "Powszechna",
+        "weapon_range": "50",
+        "damage": "+BS+3",
+        "pros_and_cons": [
+            "–"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "ŁUKI",
+        "weapon_name": "(2R)Krótki łuk",
+        "price": "3 ZK",
+        "weight": "1",
+        "accessibility": "Powszechna",
+        "weapon_range": "20",
+        "damage": "+BS+2",
+        "pros_and_cons": [
+            "–"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "KUSZE",
+        "weapon_name": "Kusza pistoletowa",
+        "price": "6 ZK",
+        "weight": "0",
+        "accessibility": "Ograniczona",
+        "weapon_range": "10",
+        "damage": "+7",
+        "pros_and_cons": [
+            "Pistolet"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "KUSZE",
+        "weapon_name": "(2R)Ciężka kusza",
+        "price": "7 ZK",
+        "weight": "3",
+        "accessibility": "Rzadka",
+        "weapon_range": "100",
+        "damage": "+9",
+        "pros_and_cons": [
+            "Przebijająca",
+            "Przeładowanie 2"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "KUSZE",
+        "weapon_name": "(2R)Kusza",
+        "price": "5 ZK",
+        "weight": "2",
+        "accessibility": "Powszechna",
+        "weapon_range": "60",
+        "damage": "+9",
+        "pros_and_cons": [
+            "Przeładowanie 1"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "EKSPERYMENTALNA",
+        "weapon_name": "krótki pistolet samopowtarzalny",
+        "price": "10 ZK",
+        "weight": "3",
+        "accessibility": "Rzadka",
+        "weapon_range": "30",
+        "damage": "+9",
+        "pros_and_cons": [
+            "Niebezpieczny",
+            "Przeładowanie 5",
+            "Wielostrzał 4"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "EKSPERYMENTALNA",
+        "weapon_name": "Pistolet samopowtarzalny*",
+        "price": "15 ZK",
+        "weight": "1",
+        "accessibility": "Rzadka",
+        "weapon_range": "10",
+        "damage": "+8",
+        "pros_and_cons": [
+            "Niebezpieczny",
+            "Pistolet",
+            "Przeładowanie 4",
+            "Wielostrzał 4"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "OPLĄTUJĄCA",
+        "weapon_name": "Arkan",
+        "price": "6 s",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "Bx2",
+        "damage": "–",
+        "pros_and_cons": [
+            "Unieruchamiający"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "OPLĄTUJĄCA",
+        "weapon_name": "Bicz",
+        "price": "5 s",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "6",
+        "damage": "+BS+2",
+        "pros_and_cons": [
+            "Unieruchamiający"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "MATERIAŁY WYBUCHOWE",
+        "weapon_name": "Bomba",
+        "price": "3 ZK",
+        "weight": "0",
+        "accessibility": "Rzadka",
+        "weapon_range": "BS",
+        "damage": "+12",
+        "pros_and_cons": [
+            "Druzgocząca",
+            "Niebezpieczna",
+            "Wybuchowy 4"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "MATERIAŁY WYBUCHOWE",
+        "weapon_name": "Ładunek zapalający",
+        "price": "1 ZK",
+        "weight": "0",
+        "accessibility": "Ograniczona",
+        "weapon_range": "BS",
+        "damage": "Specjalny***",
+        "pros_and_cons": [
+            "Wybuchowy 4",
+            "Niebezpieczny"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "PROCE",
+        "weapon_name": "Proca",
+        "price": "1 s",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "60",
+        "damage": "+6",
+        "pros_and_cons": [
+            "–"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "PROCE",
+        "weapon_name": "(2R)Proca drzewcowa",
+        "price": "4 s",
+        "weight": "2",
+        "accessibility": "Ograniczona",
+        "weapon_range": "100",
+        "damage": "+7",
+        "pros_and_cons": [
+            "–"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "MIOTANA",
+        "weapon_name": "Bolas",
+        "price": "10s",
+        "weight": "0",
+        "accessibility": "Rzadka",
+        "weapon_range": "BSx3",
+        "damage": "+BS",
+        "pros_and_cons": [
+            "Unieruchamiające"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "MIOTANA",
+        "weapon_name": "Strzałka",
+        "price": "2s",
+        "weight": "0",
+        "accessibility": "Ograniczona",
+        "weapon_range": "BSx2",
+        "damage": "+BS+1",
+        "pros_and_cons": [
+            "Nadziewająca"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "MIOTANA",
+        "weapon_name": "Oszczep",
+        "price": "10s 6p",
+        "weight": "1",
+        "accessibility": "Ograniczona",
+        "weapon_range": "BSx3",
+        "damage": "+BS+3",
+        "pros_and_cons": [
+            "Nadziewający"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "MIOTANA",
+        "weapon_name": "Kamień",
+        "price": "darmo",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "BSx3",
+        "damage": "+BS",
+        "pros_and_cons": [
+            "–"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "MIOTANA",
+        "weapon_name": "Topór do rzucania",
+        "price": "1 ZK",
+        "weight": "1",
+        "accessibility": "Powszechna",
+        "weapon_range": "BSx2",
+        "damage": "+BS+3",
+        "pros_and_cons": [
+            "Rąbiący"
+        ]
+    },
+    {
+        "category": "Broń zasięgowa",
+        "subcategory": "MIOTANA",
+        "weapon_name": "Nóż do rzucania",
+        "price": "18 s",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "BSx2",
+        "damage": "+BS+2",
+        "pros_and_cons": [
+            "–"
+        ]
+    },
+    {
+        "category": "Amunicja",
+        "subcategory": "PROCHOWA I EKSPERYMENTALNA",
+        "weapon_name": "Mały śrut i proch (12)",
+        "price": "3s 3p",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "jak broń",
+        "damage": "-",
+        "pros_and_cons": [
+            "Wybuchowy 1"
+        ]
+    },
+    {
+        "category": "Amunicja",
+        "subcategory": "PROCHOWA I EKSPERYMENTALNA",
+        "weapon_name": "Pocisk i proch (12)",
+        "price": "3s 3p",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "jak broń",
+        "damage": "+1",
+        "pros_and_cons": [
+            "Nadziewający",
+            "Przekłuwający"
+        ]
+    },
+    {
+        "category": "Amunicja",
+        "subcategory": "PROCHOWA I EKSPERYMENTALNA",
+        "weapon_name": "Improwizowany śrut i proch (1)",
+        "price": "3p",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "połowa zasięgu broni",
+        "damage": "-",
+        "pros_and_cons": [
+            "-"
+        ]
+    },
+    {
+        "category": "Amunicja",
+        "subcategory": "ŁUKI",
+        "weapon_name": "Strzała (12)",
+        "price": "5s",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "jak broń",
+        "damage": "-",
+        "pros_and_cons": [
+            "Nadziewająca"
+        ]
+    },
+    {
+        "category": "Amunicja",
+        "subcategory": "ŁUKI",
+        "weapon_name": "Strzała elfia (1)",
+        "price": "6s",
+        "weight": "0",
+        "accessibility": "Egzotyczna",
+        "weapon_range": "+50",
+        "damage": "+1",
+        "pros_and_cons": [
+            "Celna",
+            "Nadziewająca",
+            "Przekłuwający"
+        ]
+    },
+    {
+        "category": "Amunicja",
+        "subcategory": "KUSZE",
+        "weapon_name": "Bełt (12)",
+        "price": "5s",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "jak broń",
+        "damage": "-",
+        "pros_and_cons": [
+            "Nadziewająca"
+        ]
+    },
+    {
+        "category": "Amunicja",
+        "subcategory": "PROCE",
+        "weapon_name": "Pocisk ołowiany (12)",
+        "price": "4p",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "-10",
+        "damage": "+1",
+        "pros_and_cons": [
+            "Ogłuszający"
+        ]
+    },
+    {
+        "category": "Amunicja",
+        "subcategory": "PROCE",
+        "weapon_name": "Pocisk kamienny (12)",
+        "price": "2p",
+        "weight": "0",
+        "accessibility": "Powszechna",
+        "weapon_range": "jak broń",
+        "damage": "-",
+        "pros_and_cons": [
+            "Ogłuszający"
+        ]
+    }
+]

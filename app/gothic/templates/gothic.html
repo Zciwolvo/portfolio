@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gothic Geoguessr</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Set the background image and make it cover the entire viewport */
+        body {
+            background-image: url('static/src/gothic_bckgrnd.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            color: white; /* Text color */
+        }
+
+        /* Center the content vertically and horizontally */
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        /* Style the Start Game button */
+        #startGameButton {
+            margin-top: 20px;
+        }
+
+        /* Style the Login/Register button */
+        #loginRegisterButton {
+            background-color: #28a745; /* Green color, you can change it */
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <a href="/geoguessr/login"><button id="loginRegisterButton" class="btn btn-success">Login/Register</button></a>
+    <div class="container center-content">
+
+        <h1>Geoguessr</h1>
+        <button id="openOptions" class="btn btn-primary">Start Game</button>
+    </div>
+
+            <!-- Modal for Game Pool Selection -->
+    <div class="modal fade" id="gamePoolModal" tabindex="-1" role="dialog" aria-labelledby="gamePoolModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="gamePoolModalLabel" style="color:black;">Choose Game Pool</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <p style="color:black; margin: 1rem;">{{message}}</p>
+                <div class="modal-body">
+                    <label style="color: black;" for="gamePoolSelect">Choose game pool:</label>
+                    <select class="form-control" id="gamePoolSelect">
+                        <option value="Gothic1">Gothic1</option>
+                        <option value="Gothic2">Gothic2</option>
+                        <option value="Gothic3">Gothic3</option>
+                        <option value="Archolos">Archolos</option>
+                        <option value="Mixed">Mixed</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button href="/geoguessr/map" type="button" class="btn btn-primary" id="startGameButton">Start Game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Include Bootstrap and jQuery scripts -->
+    <!-- Add Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    // Set the default value of the dropdown to the first option
+    document.getElementById("gamePoolSelect").selectedIndex = 0;
+
+    // Handle "Start Game" button click to open the modal
+    document.getElementById("openOptions").addEventListener("click", function () {
+        $('#gamePoolModal').modal('show'); // Open the modal
+    });
+
+    // Handle Start Game button click
+    document.getElementById("startGameButton").addEventListener("click", function () {
+        var selectedGamePool = document.getElementById("gamePoolSelect").value;
+
+        // Send the selected game pool option to your Flask app
+        fetch("/geoguessr/start_game", {
+            method: "POST",
+            body: JSON.stringify({ selectedGamePool: selectedGamePool }),
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(function (response) {
+            if (!response.ok) {
+                throw new Error("Network response was not ok. Status: " + response.status);
+            }
+            return response.json();
+        })
+        .then(function (data) {
+            // Handle the response from your Flask app if needed
+            console.log("Game started successfully.");
+            // Close the modal if needed
+            $('#gamePoolModal').modal('hide');
+            window.location.href = "/geoguessr/map";
+        })
+        .catch(function (error) {
+            // Handle any errors
+            console.error("Error starting the game:", error.message);
+        });
+    });
+</script>
+</body>
+</html>
